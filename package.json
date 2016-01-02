@@ -1,6 +1,6 @@
 {
   "name": "make-object-iterable",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Executed in ES2015 environment to help make a native JavaScript object iterable, e.g. used in for...of.",
   "main": "index.js",
   "scripts": {
