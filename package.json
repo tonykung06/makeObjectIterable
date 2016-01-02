@@ -4,7 +4,7 @@
   "description": "Executed in ES2015 environment to help make a native JavaScript object iterable, e.g. used in for...of.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha --harmony_destructuring"
   },
   "repository": {
     "type": "git",

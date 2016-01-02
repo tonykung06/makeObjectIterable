@@ -28,3 +28,16 @@ const iterableObj = makeObjectIterable(originalObj);
 
 console.log([...iterableObj]);
 ```
+
+##array destructuring
+```
+const originalObj = {
+	prop1: 'value1',
+	prop2: 'value2'
+};
+
+const iterableObj = makeObjectIterable(originalObj);
+const [prop1, prop2] = iterableObj;
+
+console.log(prop1, prop2);
+```

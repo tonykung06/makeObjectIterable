@@ -34,4 +34,17 @@ describe('makeObjectIterable', function() {
 		assert.equal([...iterableObj].indexOf('value1') > -1, true);
 		assert.equal([...iterableObj].indexOf('value2') > -1, true);
 	});
+
+	it('could be used with destructuring', function() {
+		const originalObj = {
+		    prop1: 'value1',
+		    prop2: 'value2'
+		};
+
+		const iterableObj = makeObjectIterable(originalObj);
+		const [prop1, prop2] = iterableObj;
+
+		assert.equal(prop1, 'value1');
+		assert.equal(prop2, 'value2');
+	});
 });
