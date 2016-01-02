@@ -1,0 +1,27 @@
+{
+  "name": "make-object-iterable",
+  "version": "1.0.0",
+  "description": "Executed in ES2015 environment to help make a native JavaScript object iterable, e.g. used in for...of.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tonykung06/makeObjectIterable.git"
+  },
+  "keywords": [
+    "es2015",
+    "object",
+    "iterable"
+  ],
+  "author": "Tony Kung",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tonykung06/makeObjectIterable/issues"
+  },
+  "homepage": "https://github.com/tonykung06/makeObjectIterable#readme",
+  "devDependencies": {
+    "mocha": "^2.3.4"
+  }
+}
